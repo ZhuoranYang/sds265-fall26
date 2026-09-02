@@ -10,6 +10,7 @@
   day: "Wed"
   topic: "Course logistics; the machine learning workflow"
   slides: "01-ml-workflow"
+  extra_slides: "00-course-logistics"
   notes: "01-ml-workflow"
   demos:
   - path: "01-ml-workflow/ml-workflow.ipynb"
