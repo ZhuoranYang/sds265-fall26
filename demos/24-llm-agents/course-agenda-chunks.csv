@@ -1,6 +1,0 @@
-chunk_id,source,section,text
-agenda-overview,sds265_tentative_agenda.md,Purpose,"This document targets 25 content meetings, preceded by a separate Course Logistics deck (00), with an optional in-class midterm occupying the supervised-learning flex meeting."
-meeting-16,sds265_tentative_agenda.md,Meeting 16,"Supervised-Learning Studio or In-Class Midterm. This is the calendar's flex point. If it becomes an exam, no topic after Meeting 15 is assumed."
-meeting-23,sds265_tentative_agenda.md,Meeting 23,"Reinforcement Learning and Learner-Induced Distributions asks what changes when the learner's decisions determine which data it will see next."
-meeting-24,sds265_tentative_agenda.md,Meeting 24,"RLHF and Language-Model Posttraining asks why next-token pretraining is insufficient for an assistant and what demonstrations and human preferences add."
-meeting-25,sds265_tentative_agenda.md,Meeting 25,"Building AI Systems with LLMs: RAG, Tools, and Agents asks how to turn a language model into a useful and testable system that can access evidence and take actions."
