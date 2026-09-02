@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="masthead">
+    <img class="hero" src="{{ '/assets/hero.png' | relative_url }}"
+         alt="Scattered points on the left resolving into three spiral arms on the right">
+    <div class="masthead-text">
+      <h1>{{ site.title }}</h1>
+      <p class="subtitle">{{ site.subtitle }} &middot;
+        <a href="{{ site.instructor_url }}">{{ site.instructor }}</a></p>
+      <nav class="nav">
+        <a href="#calendar">Calendar</a>
+        <a href="{{ site.canvas_url }}">Canvas</a>
+        <a href="https://github.com/{{ site.course_repo }}">Materials</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>{{ site.title }} &middot; {{ site.term }} &middot;
+      Notebooks and slides: <a href="https://github.com/{{ site.course_repo }}">{{ site.course_repo }}</a></p>
+  </footer>
+</body>
+</html>

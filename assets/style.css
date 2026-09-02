@@ -1,0 +1,216 @@
+/* S&DS 265 course site.
+ *
+ * One column, generous measure, a serif face for reading and a sans face for
+ * the calendar. Colours are the palette the lecture figures use, so a figure
+ * dropped onto a page does not look imported from somewhere else. */
+
+:root {
+  --blue:   #00356B;
+  --bright: #286DC0;
+  --ink:    #202A35;
+  --muted:  #66727E;
+  --rule:   #D8E0E8;
+  --pale:   #F2F6FA;
+  --paper:  #FBFBF9;
+  --clay:   #B0846F;
+  --sage:   #9AAE96;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 17px/1.62 Palatino, "Palatino Linotype", "Iowan Old Style", Georgia, serif;
+}
+
+/* ---- masthead ---------------------------------------------------------- */
+
+.masthead { border-bottom: 1px solid var(--rule); background: #fff; }
+
+.hero {
+  display: block;
+  width: 100%;
+  max-height: 210px;
+  object-fit: cover;
+  object-position: center 45%;
+}
+
+.masthead-text {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 1.1rem 1.5rem 1.4rem;
+}
+
+.masthead-text h1 {
+  margin: 0;
+  font-size: 2.05rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--blue);
+}
+
+.subtitle { margin: 0.35rem 0 0; color: var(--muted); font-size: 1.02rem; }
+
+/* ---- nav --------------------------------------------------------------- */
+
+.nav { margin: 0.7rem 0 0; font-size: 0.95rem; }
+
+.nav a {
+  display: inline-block;
+  margin-right: 1.3rem;
+  padding-bottom: 0.12rem;
+  border-bottom: 2px solid transparent;
+  color: var(--blue);
+}
+
+.nav a:hover { border-bottom-color: var(--bright); text-decoration: none; }
+
+/* ---- body -------------------------------------------------------------- */
+
+main { max-width: 1180px; margin: 0 auto; padding: 2.1rem 1.5rem 3rem; }
+
+h2 {
+  margin: 2.4rem 0 0.7rem;
+  font-size: 1.42rem;
+  font-weight: 600;
+  color: var(--blue);
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.32rem;
+}
+
+h2:first-of-type { margin-top: 0; }
+
+p { margin: 0.75rem 0; max-width: 58rem; }
+
+a { color: var(--bright); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.lede { font-size: 1.06rem; }
+
+.note {
+  background: var(--pale);
+  border-left: 3px solid var(--blue);
+  padding: 0.85rem 1.1rem;
+  margin: 1.3rem 0;
+  max-width: 58rem;
+}
+
+.note p { margin: 0.3rem 0; }
+
+/* ---- calendar ---------------------------------------------------------- */
+
+.calendar-wrap { overflow-x: auto; margin-top: 0.9rem; }
+
+table.calendar {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 900px;
+  font: 14.5px/1.42 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+table.calendar th {
+  text-align: left;
+  font-weight: 600;
+  color: var(--blue);
+  border-bottom: 2px solid var(--blue);
+  padding: 0.4rem 0.7rem;
+  white-space: nowrap;
+}
+
+table.calendar td {
+  vertical-align: middle;
+  padding: 0.34rem 0.7rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+table.calendar tr:nth-child(even) td { background: #F7F9FB; }
+
+td.when   { white-space: nowrap; color: var(--muted); width: 6.6rem;
+            line-height: 1.24; padding-top: 0.42rem; padding-bottom: 0.42rem; }
+td.when b { color: var(--ink); font-weight: 600; }
+td.topic  { min-width: 15rem; }
+tr.recess td {
+  background: #FDF6F2 !important;
+  color: var(--clay);
+  font-style: italic;
+}
+
+tr.exam td.topic { color: var(--clay); font-weight: 600; }
+
+.demo { display: block; margin: 0.08rem 0; }
+.demo img { vertical-align: -6px; margin-right: 0.32rem; }
+
+/* ---- footer ------------------------------------------------------------ */
+
+footer {
+  border-top: 1px solid var(--rule);
+  margin-top: 2.5rem;
+  padding: 1.3rem 1.5rem 2.4rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+footer p { max-width: 1180px; margin: 0 auto; }
+
+@media (max-width: 720px) {
+  body { font-size: 16px; }
+  .hero { max-height: 130px; }
+  .masthead-text h1 { font-size: 1.5rem; }
+}
+
+
+/* ---- syllabus page ----------------------------------------------------- */
+
+main h3 {
+  margin: 1.6rem 0 0.4rem;
+  font-size: 1.08rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+main blockquote {
+  margin: 1.2rem 0;
+  padding: 0.15rem 0 0.15rem 1.1rem;
+  border-left: 3px solid var(--rule);
+  color: var(--muted);
+  max-width: 58rem;
+}
+
+main table:not(.calendar) {
+  border-collapse: collapse;
+  margin: 1.1rem 0;
+  font-size: 0.95rem;
+  max-width: 58rem;
+}
+
+main table:not(.calendar) th,
+main table:not(.calendar) td {
+  text-align: left;
+  padding: 0.42rem 0.9rem 0.42rem 0;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+}
+
+main table:not(.calendar) th { color: var(--blue); font-weight: 600; }
+
+main ul, main ol { max-width: 58rem; padding-left: 1.25rem; }
+main li { margin: 0.3rem 0; }
+
+main code {
+  background: var(--pale);
+  padding: 0.08em 0.32em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+main hr { border: 0; border-top: 1px solid var(--rule); margin: 2.2rem 0; }
+
+/* Slides and notes links: the icon carries the file type, the word carries
+   the meaning, so neither has to be guessed from a small glyph. */
+.filelink { display: inline-flex; align-items: center; gap: 0.32rem; white-space: nowrap; }
+.filelink img { vertical-align: middle; }
+

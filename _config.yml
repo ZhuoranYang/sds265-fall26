@@ -1,0 +1,36 @@
+# S&DS 265 course site.
+#
+# The site is deliberately thin: GitHub Pages runs Jekyll on push, so there is
+# no build step to remember. Everything that changes from term to term lives
+# either here or in _data/schedule.yml.
+
+title: "S&DS 265: Introductory Machine Learning"
+subtitle: "Yale University, Fall 2026"
+description: >-
+  An introduction to machine learning, from linear regression through
+  diffusion models, transformers, and language-model agents.
+
+instructor: "Zhuoran Yang"
+instructor_url: "https://zhuoranyang.github.io/"
+meeting: "Monday and Wednesday, 1:05-2:30 pm"
+location: "Davies Auditorium, 15 Prospect Street"
+term: "Fall 2026"
+
+# The public repository that holds the notebooks and lecture PDFs. Change these
+# three lines when the publishing repository is created and every Colab link,
+# raw data URL, and slide link on the site follows.
+course_repo: "ZhuoranYang/sds265-fall26"
+course_branch: "main"
+colab_base: "https://colab.research.google.com/github/ZhuoranYang/sds265-fall26/blob/main"
+raw_base: "https://github.com/ZhuoranYang/sds265-fall26/raw/main"
+
+# Canvas carries the syllabus, announcements, grades, and submissions.
+canvas_url: "https://yale.instructure.com/courses/119223"
+
+# Where the Quarto lecture notes are hosted. They go on the personal site;
+# set this once that URL exists and every Notes link on the calendar follows.
+notes_base: "https://zhuoranyang.github.io/sds265-notes"
+
+exclude: [README.md, assets/make_hero.py]
+
+plugins: []

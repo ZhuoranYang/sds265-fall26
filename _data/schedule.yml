@@ -1,0 +1,244 @@
+# The schedule for the term.
+#
+# Dates follow the Yale College academic calendar for Fall 2026:
+#   classes begin Wed Sep 2; Sep 4 runs on a Monday schedule;
+#   Labor Day Sep 7, October recess Oct 21-25, November recess
+#   Nov 21-29 have no class; classes end Fri Dec 11.
+# Slides and notebooks are paths inside the course repository.
+
+- date: "Sep 2"
+  day: "Wed"
+  topic: "Course logistics; the machine learning workflow"
+  slides: "01-ml-workflow"
+  notes: "01-ml-workflow"
+  # not yet approved for release; uncomment when the demo is confirmed
+  # demos:
+  # - path: "01-ml-workflow/ml-workflow.ipynb"
+  # label: "ml-workflow"
+- date: "Sep 4"
+  day: "Fri"
+  topic: "Mathematics for machine learning"
+  slides: "02-math-for-ml"
+  notes: "02-math-for-ml"
+  # not yet approved for release; uncomment when the demo is confirmed
+  # demos:
+  # - path: "02-math-for-ml/math-for-ml.ipynb"
+  # label: "math-for-ml"
+- date: "Sep 9"
+  day: "Wed"
+  topic: "Linear regression"
+  slides: "03-linear-regression"
+  notes: "03-linear-regression"
+  # not yet approved for release; uncomment when the demo is ready
+  # demos:
+  # - path: "03-linear-regression/linear-regression.ipynb"
+  # label: "linear-regression"
+- date: "Sep 14"
+  day: "Mon"
+  topic: "Regularized regression and model selection"
+  slides: "04-regularized-regression"
+  notes: "04-regularized-regression"
+  # not yet approved for release; uncomment when the demo is ready
+  # demos:
+  # - path: "04-regularized-regression/regularized-regression.ipynb"
+  # label: "regularized-regression"
+- date: "Sep 16"
+  day: "Wed"
+  topic: "Gradient descent and SGD"
+  slides: "05-gradient-sgd"
+  notes: "05-gradient-sgd"
+  # not yet approved for release; uncomment when the demo is ready
+  # demos:
+  # - path: "05-gradient-sgd/gradient-sgd-momentum.ipynb"
+  # label: "gradient-sgd-momentum"
+- date: "Sep 21"
+  day: "Mon"
+  topic: "Nonlinear regression"
+  slides: "06-nonlinear-regression"
+  notes: "06-nonlinear-regression"
+  # not yet approved for release; uncomment when the demo is ready
+  # demos:
+  # - path: "06-nonlinear-regression/nonlinear-regression.ipynb"
+  # label: "nonlinear-regression"
+- date: "Sep 23"
+  day: "Wed"
+  topic: "Generative classification"
+  slides: "07-generative-classification"
+  notes: "07-generative-classification"
+  # not yet approved for release; uncomment when the demo is ready
+  # demos:
+  # - path: "07-generative-classification/generative-classification.ipynb"
+  # label: "generative-classification"
+- date: "Sep 28"
+  day: "Mon"
+  topic: "Logistic classification"
+  slides: "08-logistic-classification"
+  notes: "08-logistic-classification"
+  # not yet approved for release; uncomment when the demo is ready
+  # demos:
+  # - path: "08-logistic-classification/logistic-classification.ipynb"
+  # label: "logistic-classification"
+- date: "Sep 30"
+  day: "Wed"
+  topic: "Margin classification"
+  slides: "09-margin-classification"
+  notes: "09-margin-classification"
+  # not yet approved for release; uncomment when the demo is ready
+  # demos:
+  # - path: "09-margin-classification/margin-classification.ipynb"
+  # label: "margin-classification"
+- date: "Oct 5"
+  day: "Mon"
+  topic: "Trees and ensembles"
+  slides: "10-trees-ensembles"
+  notes: "10-trees-ensembles"
+  # not yet approved for release; uncomment when the demo is ready
+  # demos:
+  # - path: "10-trees-ensembles/trees-ensembles.ipynb"
+  # label: "trees-ensembles"
+- date: "Oct 7"
+  day: "Wed"
+  topic: "Multilayer perceptrons and training"
+  slides: "11-mlp-training"
+  notes: "11-mlp-training"
+  # not yet approved for release; uncomment when the demo is ready
+  # demos:
+  # - path: "11-mlp-training/mlp-training.ipynb"
+  # label: "mlp-training"
+  # - path: "11-mlp-training/stabilizing-deep-networks.ipynb"
+  # label: "stabilizing-deep-networks"
+- date: "Oct 12"
+  day: "Mon"
+  topic: "Optimization for neural networks"
+  slides: "12-neural-optimization"
+  notes: "12-neural-optimization"
+  # not yet approved for release; uncomment when the demo is ready
+  # demos:
+  # - path: "12-neural-optimization/deep-learning-optimization.ipynb"
+  # label: "deep-learning-optimization"
+- date: "Oct 14"
+  day: "Wed"
+  topic: "Midterm examination, in class"
+- date: "Oct 19"
+  day: "Mon"
+  topic: "Convolutional networks"
+  slides: "13-convolutional-networks"
+  notes: "13-convolutional-networks"
+  # not yet approved for release; uncomment when the demo is ready
+  # demos:
+  # - path: "13-convolutional-networks/convolutional-networks.ipynb"
+  # label: "convolutional-networks"
+- date: "Oct 26"
+  day: "Mon"
+  topic: "Principal components and low-rank structure"
+  slides: "14-pca-low-rank"
+  notes: "14-pca-low-rank"
+  # not yet approved for release; uncomment when the demo is ready
+  # demos:
+  # - path: "14-pca-low-rank/pca-low-rank.ipynb"
+  # label: "pca-low-rank"
+- date: "Oct 28"
+  day: "Wed"
+  topic: "Clustering"
+  slides: "15-clustering"
+  notes: "15-clustering"
+  # not yet approved for release; uncomment when the demo is ready
+  # demos:
+  # - path: "15-clustering/clustering.ipynb"
+  # label: "clustering"
+- date: "Nov 2"
+  day: "Mon"
+  topic: "Latent variables and EM"
+  slides: "16-latent-variables-em"
+  notes: "16-latent-variables-em"
+  # not yet approved for release; uncomment when the demo is ready
+  # demos:
+  # - path: "16-latent-variables-em/gaussian-mixture-em.ipynb"
+  # label: "gaussian-mixture-em"
+- date: "Nov 4"
+  day: "Wed"
+  topic: "Autoencoders, VAEs, and VQ-VAE"
+  slides: "17-autoencoders-vaes-vqvae"
+  notes: "17-autoencoders-vaes-vqvae"
+  # not yet approved for release; uncomment when the demo is ready
+  # demos:
+  # - path: "17-autoencoders-vaes-vqvae/autoencoder-vae.ipynb"
+  # label: "autoencoder-vae"
+  # - path: "17-autoencoders-vaes-vqvae/latent-geometry-2d.ipynb"
+  # label: "latent-geometry-2d"
+  # - path: "17-autoencoders-vaes-vqvae/vae-beta-collapse.ipynb"
+  #   label: "vae-beta-collapse"
+  # - path: "17-autoencoders-vaes-vqvae/vqvae-digits.ipynb"
+  # label: "vqvae-digits"
+- date: "Nov 9"
+  day: "Mon"
+  topic: "Diffusion models"
+  slides: "18-diffusion"
+  notes: "18-diffusion"
+  # not yet approved for release; uncomment when the demo is ready
+  # demos:
+  # - path: "18-diffusion/diffusion-flow.ipynb"
+  # label: "diffusion-flow"
+- date: "Nov 11"
+  day: "Wed"
+  topic: "Latent diffusion and flow matching"
+  slides: "19-latent-diffusion-flow"
+  notes: "19-latent-diffusion-flow"
+  # not yet approved for release; uncomment when the demo is ready
+  # demos:
+  # - path: "19-latent-diffusion-flow/latent-diffusion-guidance.ipynb"
+  # label: "latent-diffusion-guidance"
+  # - path: "19-latent-diffusion-flow/flow-matching-paths.ipynb"
+  # label: "flow-matching-paths"
+- date: "Nov 16"
+  day: "Mon"
+  topic: "Reinforcement learning"
+  slides: "20-reinforcement-learning"
+  notes: "20-reinforcement-learning"
+  # not yet approved for release; uncomment when the demo is ready
+  # demos:
+  # - path: "20-reinforcement-learning/reinforcement-learning.ipynb"
+  # label: "reinforcement-learning"
+- date: "Nov 18"
+  day: "Wed"
+  topic: "Policy optimization"
+  slides: "21-policy-optimization"
+  notes: "21-policy-optimization"
+  # not yet approved for release; uncomment when the demo is ready
+  # demos:
+  # - path: "21-policy-optimization/policy-optimization.ipynb"
+  # label: "policy-optimization"
+- date: "Nov 30"
+  day: "Mon"
+  topic: "Language models and transformers"
+  slides: "22-language-models-transformers"
+  notes: "22-language-models-transformers"
+  # not yet approved for release; uncomment when the demo is ready
+  # demos:
+  # - path: "22-language-models-transformers/language-model-transformer.ipynb"
+  # label: "language-model-transformer"
+- date: "Dec 2"
+  day: "Wed"
+  topic: "Posttraining language models"
+  slides: "23-llm-posttraining"
+  notes: "23-llm-posttraining"
+  # not yet approved for release; uncomment when the demo is ready
+  # demos:
+  # - path: "23-llm-posttraining/rlhf-posttraining.ipynb"
+  # label: "rlhf-posttraining"
+- date: "Dec 7"
+  day: "Mon"
+  topic: "Language model agents"
+  slides: "24-llm-agents"
+  notes: "24-llm-agents"
+  # not yet approved for release; uncomment when the demo is ready
+  # demos:
+  # - path: "24-llm-agents/model-serving.ipynb"
+  # label: "model-serving"
+  # - path: "24-llm-agents/llm-inference-tools-agents.ipynb"
+  # label: "llm-inference-tools-agents"
+  # - path: "24-llm-agents/react-deep-research.ipynb"
+  # label: "react-deep-research"
+- date: "Dec 9"
+  day: "Wed"
+  topic: "Review and course wrap-up"
