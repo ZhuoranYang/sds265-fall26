@@ -11,19 +11,17 @@
   topic: "Course logistics; the machine learning workflow"
   slides: "01-ml-workflow"
   notes: "01-ml-workflow"
-  # not yet approved for release; uncomment when the demo is confirmed
-  # demos:
-  # - path: "01-ml-workflow/ml-workflow.ipynb"
-  # label: "ml-workflow"
+  demos:
+  - path: "01-ml-workflow/ml-workflow.ipynb"
+  label: "ml-workflow"
 - date: "Sep 4"
   day: "Fri"
   topic: "Mathematics for machine learning"
   slides: "02-math-for-ml"
   notes: "02-math-for-ml"
-  # not yet approved for release; uncomment when the demo is confirmed
-  # demos:
-  # - path: "02-math-for-ml/math-for-ml.ipynb"
-  # label: "math-for-ml"
+  demos:
+  - path: "02-math-for-ml/math-for-ml.ipynb"
+  label: "math-for-ml"
 - date: "Sep 9"
   day: "Wed"
   topic: "Linear regression"
