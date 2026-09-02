@@ -29,8 +29,8 @@ raw_base: "https://zhuoranyang.github.io/sds265-fall26"
 # Canvas carries the syllabus, announcements, grades, and submissions.
 canvas_url: "https://yale.instructure.com/courses/119223"
 
-# Where the Quarto lecture notes are hosted. They go on the personal site;
-# set this once that URL exists and every Notes link on the calendar follows.
+# Root of the Quarto notes site. Chapters render under lectures/ there,
+# because the .qmd sources live in SDS265/lectures/.
 notes_base: "https://zhuoranyang.github.io/sds265-notes"
 
 exclude: [README.md, assets/make_hero.py]

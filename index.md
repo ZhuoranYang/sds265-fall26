@@ -78,7 +78,7 @@ notes, and runnable demos for each meeting.
       <td>
         {%- if m.notes %}{%- if site.notes_base %}
         <a class="filelink" target="_blank" rel="noopener"
-           href="{{ site.notes_base }}/{{ m.notes }}.html"><img
+           href="{{ site.notes_base }}/lectures/{{ m.notes }}.html"><img
           src="{{ '/assets/notes.svg' | relative_url }}" width="22" alt="">Notes</a>
         {%- endif %}{%- endif %}
       </td>
