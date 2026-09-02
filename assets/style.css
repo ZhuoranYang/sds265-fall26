@@ -214,7 +214,3 @@ main hr { border: 0; border-top: 1px solid var(--rule); margin: 2.2rem 0; }
 .filelink { display: inline-flex; align-items: center; gap: 0.32rem; white-space: nowrap; }
 .filelink img { vertical-align: middle; }
 
-
-/* Two decks on the opening meeting stack instead of running together. */
-td .filelink + .filelink { margin-top: .22rem; }
-td .filelink { display: flex; }

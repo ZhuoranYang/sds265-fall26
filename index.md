@@ -74,11 +74,6 @@ notes, and runnable demos for each meeting.
            href="{{ site.raw_base }}/lectures/{{ m.slides }}.pdf"><img
           src="{{ '/assets/pdf.svg' | relative_url }}" width="22" alt="">Slides</a>
         {%- endif %}
-        {%- if m.extra_slides %}
-        <a class="filelink" target="_blank" rel="noopener"
-           href="{{ site.raw_base }}/lectures/{{ m.extra_slides }}.pdf"><img
-          src="{{ '/assets/pdf.svg' | relative_url }}" width="22" alt="">Logistics</a>
-        {%- endif %}
       </td>
       <td>
         {%- if m.notes %}{%- if site.notes_base %}
