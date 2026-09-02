@@ -44,7 +44,7 @@ The [Canvas site]({{ site.canvas_url }}) has the syllabus, announcements,
 grades, and assignment submission. This page is the calendar: slides, lecture
 notes, and runnable demos for each meeting.
 
-## Calendar {: #calendar}
+<h2 id="calendar">Calendar</h2>
 
 <div class="calendar-wrap">
 <table class="calendar">
