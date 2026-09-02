@@ -28,7 +28,7 @@
   day: "Wed"
   topic: "Linear regression"
   slides: "03-linear-regression"
-  notes: "03-linear-regression"
+  # notes: "03-linear-regression"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "03-linear-regression/linear-regression.ipynb"
@@ -37,7 +37,7 @@
   day: "Mon"
   topic: "Regularized regression and model selection"
   slides: "04-regularized-regression"
-  notes: "04-regularized-regression"
+  # notes: "04-regularized-regression"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "04-regularized-regression/regularized-regression.ipynb"
@@ -46,7 +46,7 @@
   day: "Wed"
   topic: "Gradient descent and SGD"
   slides: "05-gradient-sgd"
-  notes: "05-gradient-sgd"
+  # notes: "05-gradient-sgd"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "05-gradient-sgd/gradient-sgd-momentum.ipynb"
@@ -55,7 +55,7 @@
   day: "Mon"
   topic: "Nonlinear regression"
   slides: "06-nonlinear-regression"
-  notes: "06-nonlinear-regression"
+  # notes: "06-nonlinear-regression"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "06-nonlinear-regression/nonlinear-regression.ipynb"
@@ -64,7 +64,7 @@
   day: "Wed"
   topic: "Generative classification"
   slides: "07-generative-classification"
-  notes: "07-generative-classification"
+  # notes: "07-generative-classification"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "07-generative-classification/generative-classification.ipynb"
@@ -73,7 +73,7 @@
   day: "Mon"
   topic: "Logistic classification"
   slides: "08-logistic-classification"
-  notes: "08-logistic-classification"
+  # notes: "08-logistic-classification"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "08-logistic-classification/logistic-classification.ipynb"
@@ -82,7 +82,7 @@
   day: "Wed"
   topic: "Margin classification"
   slides: "09-margin-classification"
-  notes: "09-margin-classification"
+  # notes: "09-margin-classification"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "09-margin-classification/margin-classification.ipynb"
@@ -91,7 +91,7 @@
   day: "Mon"
   topic: "Trees and ensembles"
   slides: "10-trees-ensembles"
-  notes: "10-trees-ensembles"
+  # notes: "10-trees-ensembles"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "10-trees-ensembles/trees-ensembles.ipynb"
@@ -100,7 +100,7 @@
   day: "Wed"
   topic: "Multilayer perceptrons and training"
   slides: "11-mlp-training"
-  notes: "11-mlp-training"
+  # notes: "11-mlp-training"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "11-mlp-training/mlp-training.ipynb"
@@ -111,7 +111,7 @@
   day: "Mon"
   topic: "Optimization for neural networks"
   slides: "12-neural-optimization"
-  notes: "12-neural-optimization"
+  # notes: "12-neural-optimization"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "12-neural-optimization/deep-learning-optimization.ipynb"
@@ -123,7 +123,7 @@
   day: "Mon"
   topic: "Convolutional networks"
   slides: "13-convolutional-networks"
-  notes: "13-convolutional-networks"
+  # notes: "13-convolutional-networks"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "13-convolutional-networks/convolutional-networks.ipynb"
@@ -132,7 +132,7 @@
   day: "Mon"
   topic: "Principal components and low-rank structure"
   slides: "14-pca-low-rank"
-  notes: "14-pca-low-rank"
+  # notes: "14-pca-low-rank"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "14-pca-low-rank/pca-low-rank.ipynb"
@@ -141,7 +141,7 @@
   day: "Wed"
   topic: "Clustering"
   slides: "15-clustering"
-  notes: "15-clustering"
+  # notes: "15-clustering"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "15-clustering/clustering.ipynb"
@@ -150,7 +150,7 @@
   day: "Mon"
   topic: "Latent variables and EM"
   slides: "16-latent-variables-em"
-  notes: "16-latent-variables-em"
+  # notes: "16-latent-variables-em"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "16-latent-variables-em/gaussian-mixture-em.ipynb"
@@ -159,7 +159,7 @@
   day: "Wed"
   topic: "Autoencoders, VAEs, and VQ-VAE"
   slides: "17-autoencoders-vaes-vqvae"
-  notes: "17-autoencoders-vaes-vqvae"
+  # notes: "17-autoencoders-vaes-vqvae"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "17-autoencoders-vaes-vqvae/autoencoder-vae.ipynb"
@@ -174,7 +174,7 @@
   day: "Mon"
   topic: "Diffusion models"
   slides: "18-diffusion"
-  notes: "18-diffusion"
+  # notes: "18-diffusion"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "18-diffusion/diffusion-flow.ipynb"
@@ -183,7 +183,7 @@
   day: "Wed"
   topic: "Latent diffusion and flow matching"
   slides: "19-latent-diffusion-flow"
-  notes: "19-latent-diffusion-flow"
+  # notes: "19-latent-diffusion-flow"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "19-latent-diffusion-flow/latent-diffusion-guidance.ipynb"
@@ -194,7 +194,7 @@
   day: "Mon"
   topic: "Reinforcement learning"
   slides: "20-reinforcement-learning"
-  notes: "20-reinforcement-learning"
+  # notes: "20-reinforcement-learning"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "20-reinforcement-learning/reinforcement-learning.ipynb"
@@ -203,7 +203,7 @@
   day: "Wed"
   topic: "Policy optimization"
   slides: "21-policy-optimization"
-  notes: "21-policy-optimization"
+  # notes: "21-policy-optimization"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "21-policy-optimization/policy-optimization.ipynb"
@@ -212,7 +212,7 @@
   day: "Mon"
   topic: "Language models and transformers"
   slides: "22-language-models-transformers"
-  notes: "22-language-models-transformers"
+  # notes: "22-language-models-transformers"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "22-language-models-transformers/language-model-transformer.ipynb"
@@ -221,7 +221,7 @@
   day: "Wed"
   topic: "Posttraining language models"
   slides: "23-llm-posttraining"
-  notes: "23-llm-posttraining"
+  # notes: "23-llm-posttraining"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "23-llm-posttraining/rlhf-posttraining.ipynb"
@@ -230,7 +230,7 @@
   day: "Mon"
   topic: "Language model agents"
   slides: "24-llm-agents"
-  notes: "24-llm-agents"
+  # notes: "24-llm-agents"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "24-llm-agents/model-serving.ipynb"

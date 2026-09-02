@@ -70,13 +70,15 @@ notes, and runnable demos for each meeting.
       </td>
       <td>
         {%- if m.slides %}
-        <a class="filelink" href="{{ site.raw_base }}/lectures/{{ m.slides }}.pdf"><img
+        <a class="filelink" target="_blank" rel="noopener"
+           href="{{ site.raw_base }}/lectures/{{ m.slides }}.pdf"><img
           src="{{ '/assets/pdf.svg' | relative_url }}" width="22" alt="">Slides</a>
         {%- endif %}
       </td>
       <td>
         {%- if m.notes %}{%- if site.notes_base %}
-        <a class="filelink" href="{{ site.notes_base }}/{{ m.notes }}.html"><img
+        <a class="filelink" target="_blank" rel="noopener"
+           href="{{ site.notes_base }}/{{ m.notes }}.html"><img
           src="{{ '/assets/notes.svg' | relative_url }}" width="22" alt="">Notes</a>
         {%- endif %}{%- endif %}
       </td>
