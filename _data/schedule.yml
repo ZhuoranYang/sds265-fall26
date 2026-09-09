@@ -5,225 +5,250 @@
 #   Labor Day Sep 7, October recess Oct 21-25, November recess
 #   Nov 21-29 have no class; classes end Fri Dec 11.
 # Slides and notebooks are paths inside the course repository.
+# reading: the chapter to read alongside the meeting; ISLP wherever it covers the topic.
 
 - date: "Sep 2"
   day: "Wed"
   topic: "Course logistics; the machine learning workflow"
+  reading: "ISLP §2.1–2.2"
   slides: "01-ml-workflow"
   notes: "01-ml-workflow"
   demos:
   - path: "01-ml-workflow/ml-workflow.ipynb"
-  label: "ml-workflow"
+    label: "ml-workflow"
 - date: "Sep 4"
   day: "Fri"
   topic: "Mathematics for machine learning"
+  reading: "ISLP §2.1–2.2 (review); D2L Ch. 2"
   slides: "02-math-for-ml"
   notes: "02-math-for-ml"
   demos:
   - path: "02-math-for-ml/math-for-ml.ipynb"
-  label: "math-for-ml"
+    label: "math-for-ml"
 - date: "Sep 9"
   day: "Wed"
   topic: "Linear regression"
+  reading: "ISLP §3.1–3.3"
   slides: "03-linear-regression"
   # notes: "03-linear-regression"   # chapter not published yet
-  # not yet approved for release; uncomment when the demo is ready
-  # demos:
-  # - path: "03-linear-regression/linear-regression.ipynb"
-  # label: "linear-regression"
+  demos:
+  - path: "03-linear-regression/linear-regression-demo.ipynb"
+    label: "linear-regression-demo"
+  - path: "03-linear-regression/linear-regression-slide-figures.ipynb"
+    label: "linear-regression-slide-figures"
 - date: "Sep 14"
   day: "Mon"
   topic: "Regularized regression and model selection"
+  reading: "ISLP §5.1, §6.2"
   slides: "04-regularized-regression"
   # notes: "04-regularized-regression"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "04-regularized-regression/regularized-regression.ipynb"
-  # label: "regularized-regression"
+  #   label: "regularized-regression"
 - date: "Sep 16"
   day: "Wed"
   topic: "Gradient descent and SGD"
+  reading: "ISLP §10.7; D2L §12.1–12.6"
   slides: "05-gradient-sgd"
   # notes: "05-gradient-sgd"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "05-gradient-sgd/gradient-sgd-momentum.ipynb"
-  # label: "gradient-sgd-momentum"
+  #   label: "gradient-sgd-momentum"
 - date: "Sep 21"
   day: "Mon"
   topic: "Nonlinear regression"
+  reading: "ISLP Ch. 7"
   slides: "06-nonlinear-regression"
   # notes: "06-nonlinear-regression"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "06-nonlinear-regression/nonlinear-regression.ipynb"
-  # label: "nonlinear-regression"
+  #   label: "nonlinear-regression"
 - date: "Sep 23"
   day: "Wed"
   topic: "Generative classification"
+  reading: "ISLP §4.4–4.5"
   slides: "07-generative-classification"
   # notes: "07-generative-classification"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "07-generative-classification/generative-classification.ipynb"
-  # label: "generative-classification"
+  #   label: "generative-classification"
 - date: "Sep 28"
   day: "Mon"
   topic: "Logistic classification"
+  reading: "ISLP §4.1–4.3, §4.6"
   slides: "08-logistic-classification"
   # notes: "08-logistic-classification"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "08-logistic-classification/logistic-classification.ipynb"
-  # label: "logistic-classification"
+  #   label: "logistic-classification"
 - date: "Sep 30"
   day: "Wed"
   topic: "Margin classification"
+  reading: "ISLP Ch. 9"
   slides: "09-margin-classification"
   # notes: "09-margin-classification"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "09-margin-classification/margin-classification.ipynb"
-  # label: "margin-classification"
+  #   label: "margin-classification"
 - date: "Oct 5"
   day: "Mon"
   topic: "Trees and ensembles"
+  reading: "ISLP Ch. 8"
   slides: "10-trees-ensembles"
   # notes: "10-trees-ensembles"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "10-trees-ensembles/trees-ensembles.ipynb"
-  # label: "trees-ensembles"
+  #   label: "trees-ensembles"
 - date: "Oct 7"
   day: "Wed"
   topic: "Multilayer perceptrons and training"
+  reading: "ISLP §10.1–10.2, §10.7; D2L Ch. 5"
   slides: "11-mlp-training"
   # notes: "11-mlp-training"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "11-mlp-training/mlp-training.ipynb"
-  # label: "mlp-training"
+  #   label: "mlp-training"
   # - path: "11-mlp-training/stabilizing-deep-networks.ipynb"
-  # label: "stabilizing-deep-networks"
+  #   label: "stabilizing-deep-networks"
 - date: "Oct 12"
   day: "Mon"
   topic: "Optimization for neural networks"
+  reading: "D2L §12.7–12.10"
   slides: "12-neural-optimization"
   # notes: "12-neural-optimization"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "12-neural-optimization/deep-learning-optimization.ipynb"
-  # label: "deep-learning-optimization"
+  #   label: "deep-learning-optimization"
 - date: "Oct 14"
   day: "Wed"
   topic: "Midterm examination, in class"
 - date: "Oct 19"
   day: "Mon"
   topic: "Convolutional networks"
+  reading: "ISLP §10.3; D2L Ch. 7"
   slides: "13-convolutional-networks"
   # notes: "13-convolutional-networks"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "13-convolutional-networks/convolutional-networks.ipynb"
-  # label: "convolutional-networks"
+  #   label: "convolutional-networks"
 - date: "Oct 26"
   day: "Mon"
   topic: "Principal components and low-rank structure"
+  reading: "ISLP §12.1–12.2"
   slides: "14-pca-low-rank"
   # notes: "14-pca-low-rank"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "14-pca-low-rank/pca-low-rank.ipynb"
-  # label: "pca-low-rank"
+  #   label: "pca-low-rank"
 - date: "Oct 28"
   day: "Wed"
   topic: "Clustering"
+  reading: "ISLP §12.4"
   slides: "15-clustering"
   # notes: "15-clustering"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "15-clustering/clustering.ipynb"
-  # label: "clustering"
+  #   label: "clustering"
 - date: "Nov 2"
   day: "Mon"
   topic: "Latent variables and EM"
+  reading: "DL Ch. 13, §19.2"
   slides: "16-latent-variables-em"
   # notes: "16-latent-variables-em"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "16-latent-variables-em/gaussian-mixture-em.ipynb"
-  # label: "gaussian-mixture-em"
+  #   label: "gaussian-mixture-em"
 - date: "Nov 4"
   day: "Wed"
   topic: "Autoencoders, VAEs, and VQ-VAE"
+  reading: "DL Ch. 14; Kingma & Welling (2019)"
   slides: "17-autoencoders-vaes-vqvae"
   # notes: "17-autoencoders-vaes-vqvae"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "17-autoencoders-vaes-vqvae/autoencoder-vae.ipynb"
-  # label: "autoencoder-vae"
+  #   label: "autoencoder-vae"
   # - path: "17-autoencoders-vaes-vqvae/latent-geometry-2d.ipynb"
-  # label: "latent-geometry-2d"
+  #   label: "latent-geometry-2d"
   # - path: "17-autoencoders-vaes-vqvae/vae-beta-collapse.ipynb"
   #   label: "vae-beta-collapse"
   # - path: "17-autoencoders-vaes-vqvae/vqvae-digits.ipynb"
-  # label: "vqvae-digits"
+  #   label: "vqvae-digits"
 - date: "Nov 9"
   day: "Mon"
   topic: "Diffusion models"
+  reading: "Ho, Jain & Abbeel (2020)"
   slides: "18-diffusion"
   # notes: "18-diffusion"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "18-diffusion/diffusion-flow.ipynb"
-  # label: "diffusion-flow"
+  #   label: "diffusion-flow"
 - date: "Nov 11"
   day: "Wed"
   topic: "Latent diffusion and flow matching"
+  reading: "Rombach et al. (2022); Lipman et al. (2023)"
   slides: "19-latent-diffusion-flow"
   # notes: "19-latent-diffusion-flow"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "19-latent-diffusion-flow/latent-diffusion-guidance.ipynb"
-  # label: "latent-diffusion-guidance"
+  #   label: "latent-diffusion-guidance"
   # - path: "19-latent-diffusion-flow/flow-matching-paths.ipynb"
-  # label: "flow-matching-paths"
+  #   label: "flow-matching-paths"
 - date: "Nov 16"
   day: "Mon"
   topic: "Reinforcement learning"
+  reading: "Sutton & Barto Ch. 3–4"
   slides: "20-reinforcement-learning"
   # notes: "20-reinforcement-learning"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "20-reinforcement-learning/reinforcement-learning.ipynb"
-  # label: "reinforcement-learning"
+  #   label: "reinforcement-learning"
 - date: "Nov 18"
   day: "Wed"
   topic: "Policy optimization"
+  reading: "Sutton & Barto Ch. 13; Schulman et al. (2017)"
   slides: "21-policy-optimization"
   # notes: "21-policy-optimization"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "21-policy-optimization/policy-optimization.ipynb"
-  # label: "policy-optimization"
+  #   label: "policy-optimization"
 - date: "Nov 30"
   day: "Mon"
   topic: "Language models and transformers"
+  reading: "D2L Ch. 11; Vaswani et al. (2017)"
   slides: "22-language-models-transformers"
   # notes: "22-language-models-transformers"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "22-language-models-transformers/language-model-transformer.ipynb"
-  # label: "language-model-transformer"
+  #   label: "language-model-transformer"
 - date: "Dec 2"
   day: "Wed"
   topic: "Posttraining language models"
+  reading: "Ouyang et al. (2022); Rafailov et al. (2023)"
   slides: "23-llm-posttraining"
   # notes: "23-llm-posttraining"   # chapter not published yet
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "23-llm-posttraining/rlhf-posttraining.ipynb"
-  # label: "rlhf-posttraining"
+  #   label: "rlhf-posttraining"
 - date: "Dec 7"
   day: "Mon"
   topic: "Language model agents"
@@ -232,11 +257,11 @@
   # not yet approved for release; uncomment when the demo is ready
   # demos:
   # - path: "24-llm-agents/model-serving.ipynb"
-  # label: "model-serving"
+  #   label: "model-serving"
   # - path: "24-llm-agents/llm-inference-tools-agents.ipynb"
-  # label: "llm-inference-tools-agents"
+  #   label: "llm-inference-tools-agents"
   # - path: "24-llm-agents/react-deep-research.ipynb"
-  # label: "react-deep-research"
+  #   label: "react-deep-research"
 - date: "Dec 9"
   day: "Wed"
   topic: "Review and course wrap-up"

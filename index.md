@@ -42,7 +42,7 @@ programming experience in Python.
 
 The [Canvas site]({{ site.canvas_url }}) has the syllabus, announcements,
 grades, and assignment submission. This page is the calendar: slides, lecture
-notes, and runnable demos for each meeting.
+notes, runnable demos, and the reading for each meeting.
 
 <h2 id="calendar">Calendar</h2>
 
@@ -55,6 +55,7 @@ notes, and runnable demos for each meeting.
       <th>Demos</th>
       <th>Slides</th>
       <th>Lecture&nbsp;Notes</th>
+      <th>Reading</th>
     </tr>
   </thead>
   <tbody>
@@ -82,12 +83,13 @@ notes, and runnable demos for each meeting.
           src="{{ '/assets/notes.svg' | relative_url }}" width="22" alt="">Notes</a>
         {%- endif %}{%- endif %}
       </td>
+      <td class="reading">{{ m.reading }}</td>
     </tr>
     {%- if m.date == "Oct 19" %}
-    <tr class="recess"><td class="when">Oct 21–25</td><td colspan="4">October recess — no class</td></tr>
+    <tr class="recess"><td class="when">Oct 21–25</td><td colspan="5">October recess — no class</td></tr>
     {%- endif %}
     {%- if m.date == "Nov 18" %}
-    <tr class="recess"><td class="when">Nov 21–29</td><td colspan="4">November recess — no class</td></tr>
+    <tr class="recess"><td class="when">Nov 21–29</td><td colspan="5">November recess — no class</td></tr>
     {%- endif %}
   {%- endfor %}
   </tbody>
@@ -98,8 +100,9 @@ notes, and runnable demos for each meeting.
 
 The lecture slides and notebooks are self-contained. Three textbooks are
 recommended for a second explanation and additional depth, and all three are
-free online. Each lecture names its own reading on the closing slide, cited by
-chapter using these tags.
+free online. The Reading column of the calendar names the chapter to read
+alongside each meeting, using these tags; where ISLP covers the topic it is the
+reading, and the slides and notebooks are self-contained in any case.
 
 - **[ISLP]** *An Introduction to Statistical Learning with Applications in
   Python* — James, Witten, Hastie, Tibshirani, and Taylor.
