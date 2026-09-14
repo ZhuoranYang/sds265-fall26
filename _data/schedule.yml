@@ -34,8 +34,6 @@
   demos:
   - path: "03-linear-regression/linear-regression-demo.ipynb"
     label: "linear-regression-demo"
-  - path: "03-linear-regression/linear-regression-slide-figures.ipynb"
-    label: "linear-regression-slide-figures"
 - date: "Sep 14"
   day: "Mon"
   topic: "Regularized regression and model selection"
