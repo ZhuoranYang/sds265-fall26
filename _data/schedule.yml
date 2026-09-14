@@ -42,30 +42,27 @@
   reading: "ISLP §5.1, §6.2"
   slides: "04-regularized-regression"
   # notes: "04-regularized-regression"   # chapter not published yet
-  # not yet approved for release; uncomment when the demo is ready
-  # demos:
-  # - path: "04-regularized-regression/regularized-regression.ipynb"
-  #   label: "regularized-regression"
+  demos:
+  - path: "04-regularized-regression/regularized-regression-demo.ipynb"
+    label: "regularized-regression-demo"
 - date: "Sep 16"
   day: "Wed"
   topic: "Gradient descent and SGD"
   reading: "ISLP §10.7; D2L §12.1–12.6"
   slides: "05-gradient-sgd"
   # notes: "05-gradient-sgd"   # chapter not published yet
-  # not yet approved for release; uncomment when the demo is ready
-  # demos:
-  # - path: "05-gradient-sgd/gradient-sgd-momentum.ipynb"
-  #   label: "gradient-sgd-momentum"
+  demos:
+  - path: "05-gradient-sgd/gradient-sgd-momentum-demo.ipynb"
+    label: "gradient-sgd-momentum-demo"
 - date: "Sep 21"
   day: "Mon"
   topic: "Nonlinear regression"
   reading: "ISLP Ch. 7"
   slides: "06-nonlinear-regression"
   # notes: "06-nonlinear-regression"   # chapter not published yet
-  # not yet approved for release; uncomment when the demo is ready
-  # demos:
-  # - path: "06-nonlinear-regression/nonlinear-regression.ipynb"
-  #   label: "nonlinear-regression"
+  demos:
+  - path: "06-nonlinear-regression/nonlinear-regression-demo.ipynb"
+    label: "nonlinear-regression-demo"
 - date: "Sep 23"
   day: "Wed"
   topic: "Generative classification"
