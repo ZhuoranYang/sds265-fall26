@@ -8,14 +8,15 @@ Yale University, Fall 2026. Slides, demo notebooks, and the course website.
 ## What is here
 
     lectures/     one PDF per lecture
-    demos/        one folder per lecture: a notebook and the data it reads
+    demos/        one folder per lecture: notebooks and the data they read
 
 Demo notebooks appear here as they are confirmed during the term, so `demos/`
 fills in week by week while `lectures/` is complete from the start.
 
-Every notebook reads its data by filename from its own folder, so it runs in
-Google Colab with nothing to install and nothing to download. Open one from the
-course page, or prefix its GitHub path with
+Tutorial notebooks work through the lecture ideas; figure notebooks reproduce
+the slide graphics from code. The notebooks use the data in their lecture
+folder and fetch a missing file automatically in Google Colab. Open one from
+the course page, or prefix its GitHub path with
 `https://colab.research.google.com/github/`.
 
 ## Data
