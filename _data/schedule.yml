@@ -79,6 +79,8 @@
   demos:
   - path: "08-logistic-classification/logistic-classification.ipynb"
     label: "logistic-classification tutorial"
+  - path: "08-logistic-classification/iris-logistic-feature-engineering.ipynb"
+    label: "Iris feature engineering"
 - date: "Sep 30"
   day: "Wed"
   topic: "Margin classification"
