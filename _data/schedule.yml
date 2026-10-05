@@ -87,10 +87,13 @@
   reading: "ISLP Ch. 9"
   slides: "09-margin-classification"
   # notes: "09-margin-classification"   # chapter not published yet
-  # not yet approved for release; uncomment when the demo is ready
-  # demos:
-  # - path: "09-margin-classification/margin-classification.ipynb"
-  #   label: "margin-classification"
+  demos:
+  - path: "09-margin-classification/margin-classification.ipynb"
+    label: "margin-classification tutorial"
+  - path: "09-margin-classification/numpy-svm-from-scratch.ipynb"
+    label: "NumPy SVM implementation"
+  - path: "09-margin-classification/kernel-margin-intuition.ipynb"
+    label: "kernel and margin intuition"
 - date: "Oct 5"
   day: "Mon"
   topic: "Trees and ensembles"
