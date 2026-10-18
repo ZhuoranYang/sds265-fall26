@@ -116,7 +116,7 @@
   - path: "11-mlp-training/two-class-mlp.ipynb"
     label: "two-class MLP from scratch"
   - path: "11-mlp-training/stabilizing-deep-networks.ipynb"
-    label: "stabilizing deep networks"
+    label: "techniques for stabilizing neural network training"
 - date: "Oct 12"
   day: "Mon"
   topic: "Optimization for neural networks"
