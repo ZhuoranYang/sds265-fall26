@@ -86,3 +86,12 @@ configured only in the validation process, without disabling TLS verification.
 Hosted Google Colab and CUDA execution have not been directly tested here.
 
 Edit the notebooks directly. The older `build_notebook.py` predates the expanded teaching prose.
+
+The BatchNorm demo now verifies the current-batch normalization, the exponential
+moving updates to channel means and variances, and frozen evaluation statistics
+numerically. The residual notebook introduces channel mixing with a 1×1 kernel
+before tracing the projected shortcut through a stage transition. D2L diagrams
+are downloaded into `figures/`, with original SVGs and attribution in
+[`figures/README.md`](figures/README.md). A standalone Colab notebook fetches the original SVGs directly from D2L
+when the local PNGs are absent. The new figures work before a course-repository
+release.
