@@ -139,10 +139,13 @@
   reading: "ISLP §10.3; D2L Ch. 7"
   slides: "13-convolutional-networks"
   # notes: "13-convolutional-networks"   # chapter not published yet
-  # not yet approved for release; uncomment when the demo is ready
-  # demos:
-  # - path: "13-convolutional-networks/convolutional-networks.ipynb"
-  #   label: "convolutional-networks"
+  demos:
+  - path: "13-convolutional-networks/convolutional-networks.ipynb"
+    label: "a small CNN: shapes, batch normalization, and features"
+  - path: "13-convolutional-networks/lenet-mnist.ipynb"
+    label: "from image filters to LeNet: train a CNN on MNIST"
+  - path: "13-convolutional-networks/alexnet-resnet.ipynb"
+    label: "inside AlexNet and ResNet: predictions, filters, and shortcuts"
 - date: "Oct 26"
   day: "Mon"
   topic: "Principal components and low-rank structure"
