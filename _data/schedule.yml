@@ -172,18 +172,23 @@
   reading: "DL Ch. 13, §19.2"
   slides: "16-latent-variables-em"
   # notes: "16-latent-variables-em"   # chapter not published yet
-  # not yet approved for release; uncomment when the demo is ready
-  # demos:
-  # - path: "16-latent-variables-em/gaussian-mixture-em.ipynb"
-  #   label: "gaussian-mixture-em"
+  demos:
+  - path: "16-latent-variables-em/gaussian-mixture-em.ipynb"
+    label: "Gaussian mixtures on the cars: EM step by step, gradient EM, and covariance families"
+  - path: "16-latent-variables-em/em-beyond-gaussians.ipynb"
+    label: "EM beyond Gaussians: mixtures of regressions and a Bernoulli mixture on MNIST"
 - date: "Nov 4"
   day: "Wed"
   topic: "Autoencoders, VAEs, and VQ-VAE"
   reading: "DL Ch. 14; Kingma & Welling (2019)"
   slides: "17-autoencoders-vaes-vqvae"
   # notes: "17-autoencoders-vaes-vqvae"   # chapter not published yet
+  demos:
+  - path: "17-autoencoders-vaes-vqvae/vae-mnist.ipynb"
+    label: "from probabilistic PCA to the VAE on MNIST: posteriors, samples, and the gap"
+  - path: "17-autoencoders-vaes-vqvae/ppca-em-mnist.ipynb"
+    label: "probabilistic PCA by EM, and the same model as a linear VAE"
   # not yet approved for release; uncomment when the demo is ready
-  # demos:
   # - path: "17-autoencoders-vaes-vqvae/autoencoder-vae.ipynb"
   #   label: "autoencoder-vae"
   # - path: "17-autoencoders-vaes-vqvae/latent-geometry-2d.ipynb"
