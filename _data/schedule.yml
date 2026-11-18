@@ -186,13 +186,13 @@
   demos:
   - path: "17-autoencoders-vaes-vqvae/vae-mnist.ipynb"
     label: "from probabilistic PCA to the VAE on MNIST: posteriors, samples, and the gap"
+  - path: "17-autoencoders-vaes-vqvae/vae-beta-collapse.ipynb"
+    label: "the KL weight beta: the reconstruction trade-off and posterior collapse"
   # not yet approved for release; uncomment when the demo is ready
   # - path: "17-autoencoders-vaes-vqvae/autoencoder-vae.ipynb"
   #   label: "autoencoder-vae"
   # - path: "17-autoencoders-vaes-vqvae/latent-geometry-2d.ipynb"
   #   label: "latent-geometry-2d"
-  # - path: "17-autoencoders-vaes-vqvae/vae-beta-collapse.ipynb"
-  #   label: "vae-beta-collapse"
   # - path: "17-autoencoders-vaes-vqvae/vqvae-digits.ipynb"
   #   label: "vqvae-digits"
 - date: "Nov 9"
