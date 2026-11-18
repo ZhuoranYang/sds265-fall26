@@ -186,8 +186,6 @@
   demos:
   - path: "17-autoencoders-vaes-vqvae/vae-mnist.ipynb"
     label: "from probabilistic PCA to the VAE on MNIST: posteriors, samples, and the gap"
-  - path: "17-autoencoders-vaes-vqvae/ppca-em-mnist.ipynb"
-    label: "probabilistic PCA by EM, and the same model as a linear VAE"
   # not yet approved for release; uncomment when the demo is ready
   # - path: "17-autoencoders-vaes-vqvae/autoencoder-vae.ipynb"
   #   label: "autoencoder-vae"
